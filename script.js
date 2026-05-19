@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (playWebBtn) {
     playWebBtn.addEventListener("click", () => {
-      // Add your web app URL here
-      window.location.href = "https://hypergames.gg";
+      // Open in new tab to avoid deep linking to mobile app
+      window.open("https://hypergames.gg", "_blank", "noopener,noreferrer");
     });
   }
 });
