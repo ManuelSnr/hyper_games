@@ -1,0 +1,11 @@
+{
+  "name": "sigma-games-landing",
+  "version": "1.0.0",
+  "description": "Sigma Games Coming Soon Landing Page",
+  "scripts": {
+    "compress": "node compress-images.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0"
+  }
+}
